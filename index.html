@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#17362e" />
+    <meta name="description" content="Ośrodek Ciche nad Wielkimi Partęczynami. Domki wśród lasów Pojezierza Brodnickiego, wypoczynek nad jeziorem i czas bez pośpiechu." />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2317362e'/%3E%3Cpath d='M32 9 21 28h7L18 44h28L36 28h7L32 9Z' fill='%23f6f3ec'/%3E%3Cpath d='M31 39h3v13h-3z' fill='%23f6f3ec'/%3E%3C/svg%3E" />
+    <title>Ośrodek Ciche — domki nad jeziorem</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Przejdź do treści</a>
+    <svg class="svg-library" aria-hidden="true">
+      <symbol id="i-tree" viewBox="0 0 24 24"><path d="M12 3 7 10h3l-5 7h14l-5-7h3l-5-7Z"/><path d="M12 17v4"/></symbol>
+      <symbol id="i-wave" viewBox="0 0 24 24"><path d="M3 8c2.3 0 2.3 2 4.6 2s2.3-2 4.6-2 2.3 2 4.6 2 2.3-2 4.6-2M3 14c2.3 0 2.3 2 4.6 2s2.3-2 4.6-2 2.3 2 4.6 2 2.3-2 4.6-2"/></symbol>
+      <symbol id="i-fire" viewBox="0 0 24 24"><path d="M13 21c4.2-.8 7-3.2 7-7 0-2.8-1.5-5.5-4-7 .1 2.4-1 3.8-2.2 4.5.3-4.1-2-7.2-4.8-9.5.2 4.2-5 6.5-5 12 0 3.8 2.8 6.2 7 7-1.9-1.3-2.8-3.1-2-5.2.6-1.4 1.6-2.3 2.6-3.5.1 2 1.2 3 2.2 3.7 1.1.8 1 3.1-.8 5Z"/></symbol>
+      <symbol id="i-bike" viewBox="0 0 24 24"><circle cx="6" cy="17" r="4"/><circle cx="18" cy="17" r="4"/><path d="m6 17 4-8 4 8h-8Zm4-8h5l3 8M8 6h3"/></symbol>
+      <symbol id="i-paddle" viewBox="0 0 24 24"><path d="m5 19 14-14M4 15c-2 2-1 4 1 5 2 1 4 1 5-1M14 5c1-2 3-2 5-1 2 1 2 3 0 5"/></symbol>
+      <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></symbol>
+      <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20v-2c0-3 2-5 6-5s6 2 6 5v2M16 6c2 0 3 1 3 3s-1 3-3 3M17 14c3 .4 4 2 4 4v2"/></symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 15.5A8.5 8.5 0 1 1 8.5 4 7 7 0 0 0 20 15.5Z"/></symbol>
+      <symbol id="i-parking" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M9 17V7h4a3 3 0 0 1 0 6H9"/></symbol>
+      <symbol id="i-grill" viewBox="0 0 24 24"><path d="M5 9h14a7 7 0 0 1-14 0ZM12 16v5M8 21h8M8 3c0 2 2 2 2 4M13 2c0 2 2 2 2 4"/></symbol>
+      <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 4h8M6 21v-6a6 6 0 0 1 12 0v6M3 21h18M9 9h6"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M14 7l5 5-5 5"/></symbol>
+      <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 10h18"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 3h4l2 5-3 2c1.5 3 3 4.5 6 6l2-3 5 2v4c0 1-1 2-2 2C10 21 3 14 3 5c0-1 1-2 2-2Z"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    </svg>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#start" aria-label="Ośrodek Ciche — strona główna">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><path d="M12 4 5 16h5L3 27h18l-7-11h5L12 4Zm17 6-5 9h4l-6 9h15l-6-9h4l-6-9ZM11 27v9m18-8v8"/></svg>
+        <span><small>OŚRODEK</small>CICHE</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Główna nawigacja">
+        <a href="#region">Okolica</a><a href="#aktywnie">Wypoczynek</a><a href="#domki">Domki</a><a href="#cennik">Cennik</a><a href="#galeria">Galeria</a><a href="#kontakt">Kontakt</a>
+      </nav>
+      <a class="button button-light header-cta" href="#rezerwacja"><svg><use href="#i-calendar"/></svg>Sprawdź dostępność</a>
+      <button class="menu-toggle" type="button" aria-label="Otwórz menu" aria-expanded="false" data-menu-toggle><span></span><span></span></button>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="start" aria-labelledby="hero-title">
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow light">OŚRODEK CICHE</p>
+          <h1 id="hero-title">Nad jeziorem,<br />w sercu lasu.</h1>
+          <p class="hero-lead">Ośrodek Ciche położony jest nad Wielkimi Partęczynami, w jednej z najpiękniejszych części Pojezierza Brodnickiego. To miejsce na rodzinny urlop, aktywny wypoczynek i kilka dni z dala od codziennego pośpiechu. Zarezerwuj pobyt, by cieszyć się wolnym czasem i spokojem otaczającej przyrody.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#rezerwacja"><svg><use href="#i-calendar"/></svg>Sprawdź dostępność</a>
+            <a class="button button-ghost" href="#region">Poznaj ośrodek</a>
+          </div>
+        </div>
+        <div class="hero-note"><span>POJEZIERZE</span><span>BRODNICKIE</span></div>
+        <a class="scroll-cue" href="#region" aria-label="Przejdź dalej"><span></span>ODKRYJ</a>
+      </section>
+
+      <section class="region section" id="region">
+        <div class="region-copy reveal">
+          <p class="eyebrow">O MIEJSCU</p>
+          <h2>Pojezierze Brodnickie</h2>
+          <p class="lead-copy">Ciche jest dobrym miejscem, żeby poznać tę część regionu bez pośpiechu i bez sztywnego planu.</p>
+          <p>W pobliżu rozciągają się lasy Brodnickiego Parku Krajobrazowego, kolejne jeziora, niewielkie miejscowości i drogi, którymi można ruszyć dalej niemal w każdym kierunku.</p>
+          <p>Jednego dnia wystarczy zostać blisko ośrodka. Innego można wsiąść na rower, zabrać wędkę albo wybrać się na dłuższą wycieczkę po okolicy.</p>
+          <p>To właśnie różnorodność sprawia, że każdy dzień może wyglądać trochę inaczej.</p>
+        </div>
+        <figure class="region-image reveal"><img src="ciche-pomost-lato.jpg" alt="Pomost, łódki i jezioro widziane spomiędzy drzew" /><figcaption>Nad jeziorem · Pojezierze Brodnickie</figcaption></figure>
+      </section>
+
+      <section class="ways section" id="aktywnie">
+        <div class="ways-heading reveal">
+          <p class="eyebrow">NA WŁASNYCH ZASADACH</p>
+          <h2>Odpoczywaj tak,<br />jak chcesz!</h2>
+          <div class="ways-intro"><p>Nie ma jednego przepisu na dobry urlop. Dla jednych zaczyna się wcześnie rano nad wodą. Inni wolą długie śniadanie, książkę i dzień, którego nie trzeba wcześniej układać.</p><p>W Cichym oba sposoby wypoczynku spotykają się naturalnie.</p></div>
+        </div>
+        <div class="ways-grid">
+          <article class="way-card reveal">
+            <div class="way-image"><img src="ciche-pomost.jpg" alt="Spokojny pomost nad jeziorem jesienią" /></div>
+            <div class="way-copy"><span>01</span><svg><use href="#i-wave"/></svg><h3>Na ryby</h3><p>Wielkie Partęczyny od lat przyciągają wędkarzy. Rozległa powierzchnia jeziora, liczne zatoki i urozmaicona linia brzegowa dają wiele możliwości zarówno osobom łowiącym z brzegu, jak i tym, które wolą wypłynąć dalej.</p><p>Wędkarski dzień często zaczyna się jeszcze przed wschodem słońca. Nad wodą jest chłodno, wokół panuje cisza, a jezioro dopiero powoli budzi się razem z pierwszym światłem. Kilka godzin później wygląda już zupełnie inaczej.</p></div>
+          </article>
+          <article class="way-card reveal">
+            <div class="way-image"><img src="ciche-lesna-droga.jpg" alt="Leśna droga dobra na rowerową wycieczkę" /></div>
+            <div class="way-copy"><span>02</span><svg><use href="#i-bike"/></svg><h3>Na rower</h3><p>Pojezierze Brodnickie dobrze poznaje się z perspektywy roweru. Leśne drogi, spokojne lokalne trasy, niewielkie miejscowości i kolejne jeziora pozwalają zaplanować zarówno krótką przejażdżkę, jak i dłuższą wyprawę.</p><p>Nie trzeba pokonywać wielu kilometrów, żeby krajobraz zaczął się zmieniać. Raz droga prowadzi przez gęsty las, innym razem otwiera się widok na wodę albo niewielką wieś ukrytą pomiędzy drzewami.</p></div>
+          </article>
+          <article class="way-card reveal">
+            <div class="way-image"><img src="ciche-grzybobranie.jpg" alt="Grzyb rosnący wśród liści na leśnej ściółce" loading="lazy" /></div>
+            <div class="way-copy"><span>03</span><svg><use href="#i-tree"/></svg><h3>Na grzyby</h3><p>Późne lato i jesień mają tutaj własny charakter. Poranki stają się chłodniejsze, w lesie pojawia się zapach wilgotnych liści, a zwykły spacer coraz częściej kończy się pełnym koszykiem.</p><p>Rozległe kompleksy leśne wokół Cichego od lat przyciągają miłośników grzybobrania. W sezonie wystarczy wybrać odpowiedni kierunek i pozwolić, żeby kilka spokojnych chwil wśród drzew zamieniło się w dłuższą wyprawę.</p></div>
+          </article>
+          <article class="way-card reveal">
+            <div class="way-image"><img src="ciche-pomost-lato.jpg" alt="Pomost i łódki nad jeziorem w letni dzień" /></div>
+            <div class="way-copy"><span>04</span><svg><use href="#i-paddle"/></svg><h3>Nad wodę</h3><p>Jezioro jest częścią pobytu od pierwszego dnia. Nie trzeba planować wyjazdu ani wsiadać do samochodu, żeby spędzić kilka godzin nad brzegiem.</p><p>Na miejscu dostępne są plaża, pomost, kajaki, łódki i rowery wodne. Można wypłynąć dalej, popływać albo zostać na brzegu i pozwolić, żeby letnie popołudnie minęło trochę wolniej niż zwykle.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="quiet-story">
+        <div class="quiet-story-image" role="img" aria-label="Jezioro i pomost w spokojnym świetle"></div>
+        <div class="quiet-story-copy reveal">
+          <p class="eyebrow light">CAŁODOBOWA STREFA CISZY</p>
+          <h2>Cisza jest częścią tego miejsca.</h2>
+          <p>Ciche od początku było pomyślane jako miejsce spokojnego wypoczynku. Cały teren ośrodka objęty jest całodobową strefą ciszy, dzięki czemu nawet w środku sezonu można tu znaleźć to, czego nad jeziorami coraz częściej brakuje.</p>
+          <p>Poranek zaczyna się od odgłosów lasu i spokojnej tafli Wielkich Partęczyn. Wieczorem tempo naturalnie zwalnia, rozmowy cichną, a między drzewami zostaje tylko szum liści i dźwięki dochodzące znad wody.</p>
+          <p>To właśnie ten spokój sprawia, że Ciche ma swój własny rytm i od lat przyciąga osoby, które naprawdę chcą odpocząć.</p>
+          <div class="quiet-mark"><svg><use href="#i-moon"/></svg><span><strong>24 h</strong>spokojnego rytmu</span></div>
+        </div>
+      </section>
+
+      <section class="slow section">
+        <figure class="slow-image reveal"><img src="ciche-brda-front-lato.jpg" alt="Domek Brda w spokojnym, letnim lesie" /></figure>
+        <div class="slow-copy reveal">
+          <p class="eyebrow">BEZ PLANU</p>
+          <h2>A czasem najlepiej nie planować niczego.</h2>
+          <p>Nie każdy dzień urlopu musi zaczynać się od sprawdzania trasy i układania kolejnych punktów programu.</p>
+          <p>Można zostać przy domku, zjeść śniadanie trochę później niż zwykle, przejść się bez konkretnego celu albo zejść nad wodę tylko na chwilę i zostać tam znacznie dłużej.</p>
+          <p>Takie dni mają własny rytm. Nigdzie nie trzeba zdążyć i niczego nie trzeba nadrabiać.</p>
+          <p>W Cichym aktywny wypoczynek może naturalnie przeplatać się z czasem spędzonym bez żadnego planu.</p>
+        </div>
+      </section>
+
+      <section class="cabins section dark-section" id="domki">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow light">NASZE DOMKI</p><h2>Domki wśród drzew</h2></div>
+          <div class="section-heading-copy"><p>Ośrodek oferuje dwa rodzaje domków, Brda oraz Kampinos. Położone są w spokojnym, zielonym sercu lasu, w niewielkiej odległości od urokliwego jeziora Wielkie Partęczyny.</p><p>To ciche i wygodne miejsca do wypoczynku, w których najważniejsze jest to, co znajduje się za drzwiami. Rozległe lasy, niezliczone jeziora i naturalne piękno Pojezierza Brodnickiego tworzą tu wyjątkowe warunki do prawdziwego odpoczynku.</p></div>
+        </div>
+        <div class="cabin-grid">
+          <article class="cabin-card reveal">
+            <div class="cabin-image"><img src="ciche-brda-lato.jpg" alt="Domek typu Brda w letnim lesie" /><span>BRDA</span></div>
+            <div class="cabin-info"><div><p class="eyebrow">DLA RODZIN I GRUP</p><h3>Brda</h3></div><div class="cabin-description"><p>Brda to większe, klasyczne domki przeznaczone dla rodzin i kilkuosobowych grup. Zapewniają wygodną przestrzeń podczas dłuższego pobytu i dobrze wpisują się w charakter tradycyjnego wypoczynku nad jeziorem.</p><p>To dobry wybór wtedy, kiedy wakacyjny dzień zaczyna się wspólnym śniadaniem, a kończy wieczorem spędzonym przed domkiem.</p></div><div class="card-meta"><span><svg><use href="#i-users"/></svg>do 6 osób</span><a href="#rezerwacja">Zapytaj o Brdę <svg><use href="#i-arrow"/></svg></a></div></div>
+          </article>
+          <article class="cabin-card reveal">
+            <div class="cabin-image"><img src="ciche-kampinos.jpg" alt="Domek Kampinos w jesiennym lesie" /><span>KAMPINOS</span></div>
+            <div class="cabin-info"><div><p class="eyebrow">KAMERALNIE</p><h3>Kampinos</h3></div><div class="cabin-description"><p>Kampinos to mniejsze i bardziej kameralne domki dla osób, które podczas urlopu większość dnia chcą spędzać poza czterema ścianami.</p><p>Prosta przestrzeń, spokojne otoczenie i bliskość wszystkiego, co w Cichym najważniejsze, tworzą dobre warunki do niespiesznego wypoczynku we dwoje lub w mniejszym gronie.</p></div><div class="card-meta"><span><svg><use href="#i-users"/></svg>do 3 osób</span><a href="#rezerwacja">Zapytaj o Kampinos <svg><use href="#i-arrow"/></svg></a></div></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="amenities section" id="miejsce">
+        <div class="amenities-copy reveal"><p class="eyebrow">NA MIEJSCU</p><h2>Kierunek dobrego wypoczynku</h2><p>Wakacyjny dzień nie wymaga skomplikowanego planu. Plaża, pomost i jezioro znajdują się na miejscu. Do dyspozycji gości są również kajaki, łódki, rowery wodne oraz miejsca na ognisko.</p><p>Część dnia można spędzić na wodzie, później wrócić do domku, a wieczorem spotkać się przy ognisku.</p><p>Najlepsze pomysły często pojawiają się dopiero wtedy, kiedy nie trzeba już nigdzie jechać.</p></div>
+        <div class="amenities-grid" aria-label="Udogodnienia">
+          <article><svg><use href="#i-wave"/></svg><span>Plaża i jezioro</span></article><article><svg><use href="#i-paddle"/></svg><span>Kajaki</span></article><article><svg><use href="#i-paddle"/></svg><span>Łódki</span></article><article><svg><use href="#i-bike"/></svg><span>Rowery wodne</span></article><article><svg><use href="#i-tree"/></svg><span>Leśne ścieżki</span></article><article><svg><use href="#i-fire"/></svg><span>Ognisko</span></article><article><svg><use href="#i-grill"/></svg><span>Grill</span></article><article><svg><use href="#i-parking"/></svg><span>Parking</span></article>
+        </div>
+      </section>
+
+      <section class="linger">
+        <div class="linger-copy reveal"><p class="eyebrow light">WŁASNY RYTM</p><h2>Dobrze zostać na dłużej</h2><p>Ciche zmienia się razem z porą dnia i pogodą. Poranek nad wodą ma inny charakter niż ciepłe popołudnie. Po deszczu las pachnie intensywniej, a pogodny dzień zachęca do dalszej wycieczki po okolicy.</p><p>Nie trzeba codziennie szukać nowej atrakcji. Wystarczy pozwolić, żeby kolejne dni układały się zgodnie z pogodą, nastrojem i własnymi planami.</p><p>Jeden może należeć do jeziora, drugi do roweru, trzeci do lasu. Czwarty może nie mieć żadnego planu.</p><p>I właśnie dlatego warto zostać trochę dłużej.</p></div>
+      </section>
+
+      <section class="pricing section" id="cennik">
+        <div class="pricing-lead reveal"><p class="eyebrow">WARUNKI POBYTU</p><h2>Cennik</h2><p>Cena pobytu zależy od rodzaju domku oraz długości rezerwacji. Przy krótszych pobytach obowiązuje stawka dobowa, natomiast dłuższy urlop rozliczany jest korzystniej.</p><p>Informacje o pozostałych opłatach i zasadach rozliczenia pobytu przekaże kierownik ośrodka przy potwierdzaniu terminu.</p></div>
+        <div class="pricing-options reveal"><div><span>01</span><h3>Krótszy pobyt</h3><p>Rozliczenie według stawki dobowej.</p></div><div><span>02</span><h3>Dłuższy urlop</h3><p>Korzystniejsze rozliczenie dłuższej rezerwacji.</p></div></div>
+        <div class="pricing-note"><span>Ostateczna cena zależy od domku i terminu pobytu.</span><a class="text-link" href="#rezerwacja">Zapytaj o wycenę <svg><use href="#i-arrow"/></svg></a></div>
+      </section>
+
+      <section class="booking section dark-section" id="rezerwacja">
+        <div class="booking-copy reveal"><p class="eyebrow light">REZERWACJA</p><h2>Sprawdź dostępność</h2><p>Rezerwacja zaczyna się od wyboru terminu oraz rodzaju domku.</p><p>Po wskazaniu daty przyjazdu, długości pobytu i liczby osób formularz przygotuje zapytanie. Kierownik ośrodka potwierdzi dostępność, koszt i przekaże informacje potrzebne do finalizacji rezerwacji.</p><p>To prosty sposób na sprawdzenie pobytu bez konieczności rozpoczynania od rozmowy telefonicznej.</p><div class="direct-contact"><a href="tel:+48123456789"><svg><use href="#i-phone"/></svg>+48 123 456 789</a><a href="mailto:kontakt@osrodek-ciche.pl"><svg><use href="#i-mail"/></svg>kontakt@osrodek-ciche.pl</a></div></div>
+        <form class="booking-form" data-booking-form>
+          <label>Przyjazd<input type="date" name="arrival" required /></label>
+          <label>Wyjazd<input type="date" name="departure" required /></label>
+          <label>Liczba gości<select name="guests" required><option value="">Wybierz</option><option>1 osoba</option><option>2 osoby</option><option>3 osoby</option><option>4 osoby</option><option>5 osób</option><option>6 osób</option></select></label>
+          <label>Typ domku<select name="cabin" required><option value="">Wybierz</option><option>Brda</option><option>Kampinos</option><option>Dowolny</option></select></label>
+          <button class="button button-light" type="submit">Przygotuj zapytanie <svg><use href="#i-arrow"/></svg></button>
+          <p class="form-status" role="status" aria-live="polite" data-form-status></p>
+        </form>
+      </section>
+
+      <section class="gallery section" id="galeria">
+        <div class="gallery-heading reveal"><div><p class="eyebrow">GALERIA</p><h2>Zajrzyj do Cichego.</h2></div><p>Domki, jezioro i letnia plaża. Na końcu — ujęcie ze spływu kajakowego po okolicy.</p></div>
+        <div class="gallery-grid">
+          <button class="gallery-item gallery-wide" type="button" data-image="ciche-jezioro-zachod.jpg" data-alt="Widok na jezioro i pomost przy zachodzie słońca"><img src="ciche-jezioro-zachod.jpg" alt="Widok na jezioro i pomost przy zachodzie słońca" /><span>JEZIORO</span></button>
+          <button class="gallery-item" type="button" data-image="ciche-brda-front-lato.jpg" data-alt="Front domku Brda pośród letniego lasu"><img src="ciche-brda-front-lato.jpg" alt="Front domku Brda pośród letniego lasu" /><span>BRDA LATEM</span></button>
+          <button class="gallery-item" type="button" data-image="ciche-kampinos.jpg" data-alt="Domki Kampinos w jesiennym otoczeniu"><img src="ciche-kampinos.jpg" alt="Domki Kampinos w jesiennym otoczeniu" /><span>KAMPINOS</span></button>
+          <button class="gallery-item" type="button" data-image="ciche-plaza-lato.jpg" data-alt="Letnia plaża i pomost nad jeziorem"><img src="ciche-plaza-lato.jpg" alt="Letnia plaża i pomost nad jeziorem" /><span>PLAŻA</span></button>
+          <button class="gallery-item gallery-kayak" type="button" data-image="ciche-kajak-grzybienie.jpg" data-alt="Kajak pośród grzybieni widziany z góry podczas spływu po okolicy"><img src="ciche-kajak-grzybienie.jpg" alt="Kajak pośród grzybieni widziany z góry podczas spływu po okolicy" /><span>SPŁYW PO OKOLICY</span></button>
+        </div>
+      </section>
+
+      <section class="closing dark-section">
+        <div class="closing-copy reveal"><p class="eyebrow light">OŚRODEK CICHE</p><h2>Odnajdź swój własny rytm w Ośrodku Ciche</h2><p>Dla jednych Ciche będzie przede wszystkim miejscem dobrych wędkarskich poranków. Inni zapamiętają rowerowe wycieczki, jesienne wyprawy do lasu albo długie popołudnia spędzone nad wodą.</p><p>Są też tacy, dla których najważniejsze okaże się coś znacznie prostszego. Cisza, kilka wolnych dni i poczucie, że przez chwilę naprawdę nie trzeba się spieszyć.</p><div><a class="button button-light" href="#rezerwacja">Sprawdź dostępność</a><a class="button button-ghost" href="#kontakt">Kontakt</a></div></div>
+      </section>
+
+      <section class="contact section" id="kontakt">
+        <div class="contact-main reveal"><p class="eyebrow">KONTAKT</p><h2>Do zobaczenia<br />nad jeziorem.</h2><p>Napisz lub zadzwoń. Chętnie odpowiemy na pytania i pomożemy wybrać właściwy domek.</p></div>
+        <div class="contact-list">
+          <a href="https://maps.google.com/?q=Wielki+Partęczyn" target="_blank" rel="noreferrer"><svg><use href="#i-pin"/></svg><span><small>ADRES</small>Nad jeziorem Wielkie Partęczyny<br />Pojezierze Brodnickie</span></a>
+          <a href="tel:+48123456789"><svg><use href="#i-phone"/></svg><span><small>TELEFON</small>+48 123 456 789</span></a>
+          <a href="mailto:kontakt@osrodek-ciche.pl"><svg><use href="#i-mail"/></svg><span><small>E-MAIL</small>kontakt@osrodek-ciche.pl</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="brand" href="#start"><svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><path d="M12 4 5 16h5L3 27h18l-7-11h5L12 4Zm17 6-5 9h4l-6 9h15l-6-9h4l-6-9ZM11 27v9m18-8v8"/></svg><span><small>OŚRODEK</small>CICHE</span></a>
+      <p>Nad jeziorem, w sercu lasu.</p>
+      <nav aria-label="Nawigacja w stopce"><a href="#region">Okolica</a><a href="#aktywnie">Wypoczynek</a><a href="#domki">Domki</a><a href="#cennik">Cennik</a><a href="#galeria">Galeria</a><a href="#kontakt">Kontakt</a></nav>
+      <small>© <span data-year></span> Ośrodek Ciche. Wszelkie prawa zastrzeżone.</small>
+    </footer>
+
+    <div class="mobile-panel" data-mobile-panel aria-hidden="true">
+      <nav aria-label="Menu mobilne"><a href="#region">Okolica</a><a href="#aktywnie">Wypoczynek</a><a href="#domki">Domki</a><a href="#miejsce">Na miejscu</a><a href="#cennik">Cennik</a><a href="#galeria">Galeria</a><a href="#kontakt">Kontakt</a></nav>
+      <a class="button button-light" href="#rezerwacja">Sprawdź dostępność</a>
+    </div>
+
+    <dialog class="lightbox" data-lightbox><button type="button" class="lightbox-close" aria-label="Zamknij podgląd" data-lightbox-close>×</button><img src="" alt="" data-lightbox-image /></dialog>
+    <script src="script.js"></script>
+  </body>
+</html>
